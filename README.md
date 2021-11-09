@@ -1,4 +1,16 @@
 ## Gym
+[![Docker and Singularity build](https://github.com/truatpasteurdotfr/gym/actions/workflows/docker-singularity-publish.yml/badge.svg)](https://github.com/truatpasteurdotfr/gym/actions/workflows/docker-singularity-publish.yml)
+Python 3.9 based containers
+
+docker:
+```
+docker pull ghcr.io/truatpasteurdotfr/gum:main
+```
+
+singularity:
+```
+singularity shell oras://ghcr.io/truatpasteurdotfr/gym:latest
+```
 
 Gym is an open source Python library for developing and comparing reinforcement learning algorithms by providing a standard API to communicate between learning algorithms and environments, as well as a standard set of environments compliant with that API. Since its release, Gym's API has become the field standard for doing this.
 
